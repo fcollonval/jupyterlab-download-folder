@@ -5,4 +5,6 @@ node_modules/
 .ipynb_checkpoints
 *.tsbuildinfo
 __pycache__/
+dist/
 **.py[ocd]
+MANIFEST

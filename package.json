@@ -45,6 +45,17 @@
     "style/*.css"
   ],
   "jupyterlab": {
-    "extension": true
+    "extension": true,
+    "discovery": {
+      "server": {
+        "managers": [
+          "pip"
+        ],
+        "base": {
+          "name": "jupyterlab-download-folder"
+        }
+      }
+    }
+
   }
 }
