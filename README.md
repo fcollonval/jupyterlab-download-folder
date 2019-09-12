@@ -1,16 +1,16 @@
-# jupyterlab-download-folder
+# jupyterlab-downloadfolder
 
 Allow to export a folder as an archive file.
 
 
 ## Requirements
 
-* JupyterLab >= 0.30.0 
+* JupyterLab >= 1.0.0 
 
 ## Install
 
 ```bash
-jupyter labextension install jupyterlab-download-folder
+jupyter labextension install jupyterlab-downloadfolder
 ```
 
 ## Contributing
@@ -23,7 +23,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Move to jupyterlab-download-folder directory
+# Move to jupyterlab-downloadfolder directory
 # Install dependencies
 jlpm
 # Build Typescript source
@@ -48,6 +48,6 @@ jupyter lab --watch
 ### Uninstall
 
 ```bash
-jupyter labextension uninstall jupyterlab-download-folder
+jupyter labextension uninstall jupyterlab-downloadfolder
 ```
 

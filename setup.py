@@ -5,7 +5,7 @@ import setuptools
 from setupbase import create_cmdclass, ensure_python, find_packages, get_version
 
 package_data_spec = {
-    "jupyterlab_download_folder": []
+    "jupyterlab_downloadfolder": []
 }
 
 
@@ -13,7 +13,7 @@ data_files_spec = [
     (
         "etc/jupyter/jupyter_notebook_config.d",
         "jupyter-config/jupyter_notebook_config.d",
-        "jupyterlab_download_folder.json",
+        "jupyterlab_downloadfolder.json",
     )
 ]
 
@@ -25,8 +25,8 @@ with open("README.md") as readme_file:
     readme = readme_file.read()
 
 setup_dict = dict(
-    name="jupyterlab_download_folder",
-    version=get_version("jupyterlab_download_folder/_version.py"),
+    name="jupyterlab_downloadfolder",
+    version=get_version("jupyterlab_downloadfolder/_version.py"),
     description="Plugin JupyterLab for Downloading a folder as archive",
     long_description=readme,
     long_description_content_type="text/markdown",

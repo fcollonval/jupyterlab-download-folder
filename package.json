@@ -1,6 +1,6 @@
 {
-  "name": "jupyterlab-download-folder",
-  "version": "0.1.0",
+  "name": "jupyterlab-downloadfolder",
+  "version": "0.1.1",
   "description": "Allow to export a folder as an archive file.",
   "keywords": [
     "jupyter",
@@ -52,7 +52,7 @@
           "pip"
         ],
         "base": {
-          "name": "jupyterlab-download-folder"
+          "name": "jupyterlab-downloadfolder"
         }
       }
     }

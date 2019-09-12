@@ -15,7 +15,7 @@ const API = "download-folder";
 const FORMAT = "zip";
 
 namespace CommandIDs {
-  export const downloadFolder = "jupyterlab-download-folder:download";
+  export const downloadFolder = "jupyterlab-downloadfolder:download";
 }
 
 function zipAndDownload(browser: FileBrowser): void {
@@ -54,10 +54,10 @@ function zipAndDownload(browser: FileBrowser): void {
 }
 
 /**
- * Initialization data for the jupyterlab-download-folder extension.
+ * Initialization data for the jupyterlab-downloadfolder extension.
  */
 const extension: JupyterFrontEndPlugin<void> = {
-  id: "jupyterlab-download-folder",
+  id: "jupyterlab-downloadfolder",
   autoStart: true,
   activate: (app: JupyterFrontEnd, factory: IFileBrowserFactory) => {
     const { commands } = app;

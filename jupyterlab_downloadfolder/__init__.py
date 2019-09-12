@@ -11,7 +11,7 @@ def _jupyter_server_extension_paths():
     Function to declare Jupyter Server Extension Paths.
     """
     return [{
-        'module': 'jupyterlab_download_folder',
+        'module': 'jupyterlab_downloadfolder',
     }]
 
 
