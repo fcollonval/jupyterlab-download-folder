@@ -1,2 +1,9 @@
 include README.md
 include LICENSE.txt
+include setupbase.py
+
+include package.json
+include tsconfig.json
+include yarn.lock
+recursive-include src *
+recursive-include style *
