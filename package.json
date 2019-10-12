@@ -1,11 +1,12 @@
 {
   "name": "jupyterlab-downloadfolder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Allow to export a folder as an archive file.",
   "keywords": [
     "jupyter",
     "jupyterlab",
-    "jupyterlab-extension"
+    "jupyterlab-extension",
+    "deprecated"
   ],
   "homepage": "https://github.com/fcollonval/jupyterlab-download-folder",
   "bugs": {

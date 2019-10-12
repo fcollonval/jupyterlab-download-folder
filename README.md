@@ -1,3 +1,5 @@
+This code is deprecated please use that extension instead: https://github.com/hadim/jupyter-archive
+
 # jupyterlab-downloadfolder
 
 Allow to export a folder as an archive file.
